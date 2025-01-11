@@ -105,6 +105,7 @@ secrets.tar
 __pycache__
 .python-version
 .venv
+venv
 
 # Prerequisites for updating ChibiOS
 /util/fmpp*
@@ -116,3 +117,6 @@ user_song_list.h
 compile_commands.json
 .clangd/
 .cache/
+
+.envrc
+
