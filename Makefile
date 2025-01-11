@@ -480,3 +480,6 @@ pytest:
 .PHONY: format-and-pytest
 format-and-pytest:
 	RUNTIME=docker ./util/docker_cmd.sh bash -lic "$(CONTAINER_PREAMBLE); qmk format-c --core-only -a && qmk format-python -a && qmk pytest"
+
+build-sofle:
+	qmk compile -e CONVERT_TO=promicro_rp2040 -kb sofle_choc -km keyboardhoarders
