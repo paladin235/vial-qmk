@@ -18,7 +18,7 @@
 #define RP2040_BOOTLOADER_DOUBLE_TAP_RESET
 // Enabling this option changes the startup behavior to listen for an
 // active USB communication to delegate which part is master and which
-// is slave. With this option enabled and theres’s USB communication,
+// is slave. With this option enabled and there’s USB communication,
 // then that half assumes it is the master, otherwise it assumes it
 // is the slave.
 //
