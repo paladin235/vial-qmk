@@ -26,6 +26,10 @@ jobs:
       - name: Checkout QMK Firmware
         uses: actions/checkout@v4
 
+      - name: Install requirements
+        run: |
+          pip install -r requirements.txt
+
       - name: Deploy submodules
         run: |
           qmk git-submodule -f
