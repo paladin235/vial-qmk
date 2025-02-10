@@ -34,8 +34,7 @@ jobs:
         run: |
           qmk git-submodule -f
 
-      - name: Build targets
-        continue-on-error: true
+      - name: Compile
         run: |
           qmk compile -e CONVERT_TO=promicro_rp2040 -kb sofle_choc -km keyboardhoarders
 
