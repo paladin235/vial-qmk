@@ -175,7 +175,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
  * |------+------+------+------+------+------|                    |------+------+------+------+------+------|
  * | Esc  | Ins  |  +   |  {   |   }  |  |   |                    |      | PWrd |  Up  | NWrd | DLine| Bspc |
  * |------+------+------+------+------+------|                    |------+------+------+------+------+------|
- * | Tab  | LAt  |  -   |  (   |   )  |  `   |-------.    ,-------|      | Left | Down | Rigth|  Del | Bspc |
+ * | Tab  |  =   |  -   |  (   |   )  |  `   |-------.    ,-------|      | Left | Down | Rigth|  Del | Bspc |
  * |------+------+------+------+------+------|  MUTE  |    |       |------+------+------+------+------+------|
  * |Shift | Undo |  _   |  [   |   ]  |  ~   |-------|    |-------|      | LStr |      | LEnd |      | Shift|
  * `-----------------------------------------/       /     \      \-----------------------------------------'
@@ -186,7 +186,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 [2] = LAYOUT(
   _______, _______ , _______ , _______ , _______ , MAGIC_TOGGLE_CTL_GUI,                           _______,  _______  , _______,  _______ ,  _______ ,_______,
   _______,  KC_INS,  LSFT(KC_EQUAL),  LSFT(KC_LBRACKET),  LSFT(KC_RBRACKET), LSFT(KC_BSLASH),                        KC_PGUP, _______,   KC_UP, _______,_______, KC_BSPC,
-  _______, KC_LALT,  KC_MINUS,  LSFT(KC_9),  LSFT(KC_0), KC_GRAVE,                       KC_PGDN,  KC_LEFT, KC_DOWN, KC_RGHT,  KC_DEL, KC_BSPC,
+  _______, KC_EQUAL,  KC_MINUS,  LSFT(KC_9),  LSFT(KC_0), KC_GRAVE,                       KC_PGDN,  KC_LEFT, KC_DOWN, KC_RGHT,  KC_DEL, KC_BSPC,
   _______,KC_UNDO, LSFT(KC_MINUS), KC_COPY, KC_LBRACKET, KC_RBRACKET,  LSFT(KC_GRAVE),       _______,  XXXXXXX, _______, XXXXXXX, _______,   XXXXXXX, _______,
                          _______, _______, _______, MO(3), _______,       _______, _______, _______, _______, _______
 ),
