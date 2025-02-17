@@ -9,3 +9,7 @@ VIALRGB_ENABLE = yes
 RGB_MATRIX_ENABLE = yes
 WPM_ENABLE = yes  # Enable word per minute counter
 DYNAMIC_MACRO_ENABLE = yes
+NKRO_ENABLE = yes
+AUTO_SHIFT_ENABLE = yes
+AUTO_SHIFT_REPEAT = yes
+COMBO_ENABLE = yes
