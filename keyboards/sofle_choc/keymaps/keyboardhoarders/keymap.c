@@ -186,11 +186,11 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
  *            `----------------------------------'           '------''---------------------------'
  */
 [2] = LAYOUT(
-  _______, _______, _______, _______, _______, QK_MAGIC_TOGGLE_CTL_GUI,          _______,  _______  , RGB_MOD, RGB_RMOD , RGB_HUI , RGB_HUD,
-  _______, _______, LSFT(KC_EQUAL),  LSFT(KC_LCBR),  LSFT(KC_RCBR), LSFT(KC_BSLS), _______, KC_PGUP, KC_PGDN, _______, _______, _______,
-  _______, KC_EQL,  KC_MINS,  LSFT(KC_9),  LSFT(KC_0), KC_GRV,                       KC_LEFT,  KC_DOWN, KC_UP, KC_RGHT,  KC_DEL, KC_BSPC,
-  _______, _______, LSFT(KC_MINS), KC_LCBR, KC_RCBR,  LSFT(KC_GRV), _______,      KC_MUTE, KC_MPRV, KC_MPLY, KC_MPRV, _______,   XXXXXXX, _______,
-                     _______, _______, _______, MO(3), _______,       _______, _______, _______, _______, _______
+  _______, _______, _______, _______, _______, _______,                         _______,  _______  , RGB_MOD, RGB_RMOD , RGB_HUI , RGB_HUD,
+  _______, _______, S(KC_EQUAL), S(KC_LCBR), S(KC_RCBR), KC_GRV,                _______, KC_PGUP, KC_PGDN, _______, _______, _______,
+  _______, KC_EQL,  KC_MINS,  S(KC_9),  S(KC_0), S(KC_GRV),                     KC_LEFT,  KC_DOWN, KC_UP, KC_RGHT,  KC_DEL, KC_BSPC,
+  _______, _______, S(KC_MINS), KC_LCBR, KC_RCBR, KC_BSLS  , _______,      KC_MUTE, KC_MPRV, KC_MPLY, KC_MPRV, _______,   XXXXXXX, _______,
+                     _______, _______, _______, MO(3), _______,            _______, _______, _______, _______, _______
 ),
 /* Adjust
  * COLEMAK
